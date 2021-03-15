@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw Tailwindcss',
+    'title' => 'Tailwind CSS Components',
     'description' => '',
     'collections' => [],
 ];
