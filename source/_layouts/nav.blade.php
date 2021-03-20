@@ -13,7 +13,7 @@
         </svg>
     </button>
     
-    <a href="#" class="px-4 py-2 text-sm font-semibold text-center text-white rounded-md bg-primary hover:bg-teal-500">
+    <a href="#" class="px-4 py-2 text-sm font-semibold text-center text-white rounded-md bg-primary hover:bg-teal-300">
         Submit new component
     </a>
     

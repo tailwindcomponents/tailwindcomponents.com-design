@@ -55,5 +55,7 @@
         <main>
             @yield('body')
         </main>
+
+        @include('_layouts.footer')
     </body>
 </html>
