@@ -17,7 +17,7 @@
         Submit new component
     </a>
 
-    <div class="relative" @mouseover="dropdown = true" @mouseover.away="dropdown = false"  x-data="{ dropdown: true }">
+    <div class="relative" @mouseover="dropdown = true" @mouseover.away="dropdown = false"  x-data="{ dropdown: false }">
         <!-- Dropdown toggle button -->
         <button class="flex items-center justify-center space-x-2 focus:outline-none">
             <img class="object-cover w-8 h-8 border-2 rounded-full border-primary lg:w-10 lg:h-10 " src="https://images.unsplash.com/photo-1502767882403-636aee14f873?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="avatar">
@@ -33,14 +33,19 @@
             x-transition:leave="transition ease-in duration-75 transform"
             x-transition:leave-start="opacity-100 scale-100"
             x-transition:leave-end="opacity-0 scale-95"
-            class="absolute right-0 z-20 w-48 py-1 mt-2 bg-white border border-gray-100 rounded-md shadow-xl dark:bg-gray-800">
-            <a href="#" class="block px-4 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-primary hover:text-white dark:hover:text-white">
+            class="absolute left-0 z-20 w-48 py-1 mt-2 bg-white border border-gray-100 rounded-md shadow-xl lg:left-auto lg:right-0 dark:bg-gray-800">
+            <a href="/profile" class="block px-4 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-primary hover:text-white dark:hover:text-white">
                 your profile
+            </a>
+
+            <a href="#" class="block px-4 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-primary hover:text-white dark:hover:text-white">
+                Your Favourites
             </a>
 
             <a href="#" class="block px-4 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-primary hover:text-white dark:hover:text-white">
                 Settings
             </a>
+
             <hr>
             <a href="#" class="block px-4 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-primary hover:text-white dark:hover:text-white">
                 Log Out

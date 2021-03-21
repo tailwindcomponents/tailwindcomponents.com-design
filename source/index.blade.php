@@ -374,5 +374,11 @@
             </div>
         </div>
     </div>
+
+     <div class="flex justify-center mt-10">
+        <a href="#" class="px-4 py-2 mt-2 text-gray-600 transition-colors duration-200 transform border rounded-lg hover:bg-gray-100 focus:outline-none">
+            See more components
+        </a>
+     </div>
 </section>
 @endsection
