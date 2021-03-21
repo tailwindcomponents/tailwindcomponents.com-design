@@ -21,7 +21,7 @@
         <header class="border-b" x-data="{ isOpen: false }">
             <div class="container px-4 py-5 mx-auto space-y-4 lg:space-y-0 lg:flex lg:items-center lg:justify-between lg:space-x-10">
                 <div class="flex justify-between">
-                    <img class="w-48 lg:-mt-1 sm:w-60" src="./assets/logo.svg" alt="Tailwindcomponents logo">
+                    <img class="w-48 lg:-mt-1 sm:w-60" src="/assets/logo.svg" alt="Tailwindcomponents logo">
 
                     <div class="flex items-center space-x-2 lg:hidden">
                         <button @click="isOpen = !isOpen" class="p-1 rounded-md hover:bg-gray-100 focus:bg-gray-100 focus:outline-none">
