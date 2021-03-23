@@ -3,15 +3,15 @@
 @section('body')
 <section class="container px-4 py-10 mx-auto lg:h-128 lg:space-x-8 lg:flex lg:items-center">
     <div class="w-full text-center lg:text-left lg:w-1/2">
-        <h1 class="text-3xl leading-snug text-gray-800 md:text-4xl">
+        <h1 class="text-3xl leading-snug text-gray-800 dark:text-gray-200 md:text-4xl">
             A <span class="font-semibold">free repository</span> for community  <br class="hidden lg:block"> components using <span class="text-primary">TailwindCSS</span>
         </h1>
 
-        <p class="mt-4 text-lg text-gray-500">Open source Tailwind UI components and templates to <br class="hidden lg:block"> bootstrap your new apps, projects or landing sites!</p>
+        <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">Open source Tailwind UI components and templates to <br class="hidden lg:block"> bootstrap your new apps, projects or landing sites!</p>
     
-        <div class="mt-6 bg-white border rounded-md lg:w-96 focus-within:ring ring-primary focus-within:border-teal-500">
+        <div class="mt-6 bg-transparent border rounded-md dark:border-gray-700 lg:w-96 focus-within:ring ring-primary focus-within:border-teal-500">
             <div class="flex flex-wrap justify-between md:flex-row">
-                <input type="name" class="flex-1 p-2 m-1 text-gray-700 border-none appearance-none focus:outline-none focus:placeholder-transparent focus:ring-0" placeholder="Search Components">
+                <input type="name" class="flex-1 p-2 m-1 text-gray-700 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0" placeholder="Search Components">
                 <button class="flex justify-center w-full p-2 m-1 text-white transition-colors duration-200 transform rounded-md bg-primary lg:w-auto hover:bg-teal-300 focus:outline-none focus:bg-teal-300">
                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -27,8 +27,8 @@
 </section>
 
 <section class="container px-4 py-10 mx-auto">
-    <h3 class="text-2xl font-semibold text-gray-800">Latest components</h3>
-    <p class="mt-4 text-gray-500">The newest featured components from the community</p>
+    <h3 class="text-2xl font-semibold text-gray-800 dark:text-gray-200">Latest components</h3>
+    <p class="mt-4 text-gray-500 dark:text-gray-400">The newest featured components from the community</p>
 
     <div class="grid gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3">
         <div>
@@ -43,8 +43,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -71,8 +71,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -99,8 +99,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -127,8 +127,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -155,8 +155,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -183,8 +183,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -202,8 +202,8 @@
 </section>
 
 <section class="container px-4 py-10 mx-auto">
-    <h3 class="text-2xl font-semibold text-gray-800">Popular components</h3>
-    <p class="mt-4 text-gray-500">The most popular tailwindcss components</p>
+    <h3 class="text-2xl font-semibold text-gray-800 dark:text-gray-200">Popular components</h3>
+    <p class="mt-4 text-gray-500 dark:text-gray-400">The most popular tailwindcss components</p>
 
     <div class="grid gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3">
         <div>
@@ -218,8 +218,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -246,8 +246,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -274,8 +274,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -302,8 +302,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -330,8 +330,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -358,8 +358,8 @@
                     </a> 
                     
                     <div class="flex flex-col space-y-1">
-                        <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                        <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                        <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                     </div>
                 </div>
 
@@ -376,7 +376,7 @@
     </div>
 
      <div class="flex justify-center mt-10">
-        <a href="#" class="px-4 py-2 mt-2 text-gray-600 transition-colors duration-200 transform border rounded-lg hover:bg-gray-100 focus:outline-none">
+        <a href="#" class="px-4 py-2 mt-2 text-gray-600 transition-colors duration-200 transform border rounded-lg dark:text-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
             See more components
         </a>
      </div>

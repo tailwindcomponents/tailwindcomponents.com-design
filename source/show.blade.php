@@ -2,38 +2,34 @@
 
 @section('body')
 <section class="container px-4 py-10 mx-auto">
-    <div class="flex items-center justify-center max-w-3xl mx-auto text-gray-800 bg-gray-100 rounded-md h-28">Ads</div>
+    <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:items-center lg:justify-between">
+        <div>
+            <span class="font-light text-gray-400">tailwindcss@2.0.3</span>
 
-    <div class="mt-10">
-        <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:items-center lg:justify-between">
-            <div>
-                <span class="font-light text-gray-400 ">tailwindcss@2.0.3</span>
+            <div class="flex flex-col mt-2 space-y-1 sm:flex-row sm:space-y-0 sm:items-center sm:space-x-4">
+                <h3 class="text-2xl font-semibold text-gray-800 dark:text-gray-200">jetstream dark mode</h3>
 
-                <div class="flex flex-col mt-2 space-y-1 sm:flex-row sm:space-y-0 sm:items-center sm:space-x-4">
-                    <h3 class="text-2xl font-semibold text-gray-800 ">jetstream dark mode</h3>
-
-                    <a href="#" class="text-gray-400 hover:underline">By Khatabwedaa</a>
-                </div>
-
-                <p class="mt-2 text-gray-500 lg:max-w-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae velit similique veritatis accusamus maiores.</p>
+                <a href="#" class="text-gray-400 hover:underline">By Khatabwedaa</a>
             </div>
-            
-            <div class="flex items-center justify-center space-x-4">
-                <button class="flex items-center px-4 py-2 space-x-3 text-gray-600 transition-colors duration-200 transform border rounded-lg hover:bg-gray-100 focus:outline-none">
-                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M9 2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V6.414A2 2 0 0016.414 5L14 2.586A2 2 0 0012.586 2H9z" />
-                        <path d="M3 8a2 2 0 012-2v10h8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
-                    </svg>
-                    <span>Fork</span>
-                </button>
 
-                <button class="flex items-center px-4 py-2 space-x-3 text-gray-600 transition-colors duration-200 transform border rounded-lg hover:bg-gray-100 focus:outline-none">
-                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
-                    </svg>
-                    <span>Favorite</span>
-                </button>
-            </div>
+            <p class="mt-2 text-gray-500 dark:text-gray-300 lg:max-w-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae velit similique veritatis accusamus maiores.</p>
+        </div>
+        
+        <div class="flex items-center justify-center space-x-4">
+            <button class="flex items-center px-4 py-2 space-x-3 text-gray-600 transition-colors duration-200 transform border rounded-lg dark:text-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M9 2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V6.414A2 2 0 0016.414 5L14 2.586A2 2 0 0012.586 2H9z" />
+                    <path d="M3 8a2 2 0 012-2v10h8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
+                </svg>
+                <span>Fork</span>
+            </button>
+
+            <button class="flex items-center px-4 py-2 space-x-3 text-gray-600 transition-colors duration-200 transform border rounded-lg dark:text-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                </svg>
+                <span>Favorite</span>
+            </button>
         </div>
     </div>
 
@@ -47,11 +43,11 @@
 
             <div>
                 <div class="flex items-center space-x-2">
-                    <a class="text-xl font-medium text-gray-800 hover:underline" href="#">Scott Wind</a>
-                    <span class="text-sm text-gray-500">32 Components</span>
+                    <a class="text-xl font-medium text-gray-800 dark:text-gray-200 hover:underline" href="#">Scott Wind</a>
+                    <span class="text-sm text-gray-500 dark:text-gray-400">32 Components</span>
                 </div>
 
-                <a href="#" class="flex items-center mt-1 space-x-2 text-gray-500 hover:underline">
+                <a href="#" class="flex items-center mt-1 space-x-2 text-gray-500 dark:text-gray-400 hover:underline">
                     <span>Profile On</span>
 
                     <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,7 +58,7 @@
         </div>
 
         <div>
-            <h4 class="text-lg text-gray-600">Communty Rate</h4>
+            <h4 class="text-lg text-gray-600 dark:text-gray-300">Communty Rate</h4>
 
             <div class="flex items-center mt-1 space-x-3">
                 <div class="flex items-center space-x-2">
@@ -78,24 +74,24 @@
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
 
-                    <svg class="w-5 h-5 text-gray-400 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="w-5 h-5 text-gray-400 cursor-pointer dark:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
 
-                    <svg class="w-5 h-5 text-gray-400 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="w-5 h-5 text-gray-400 cursor-pointer dark:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                 </div>
 
-                <span class="text-2xl font-semibold text-gray-700">4.5</span>
+                <span class="text-2xl font-semibold text-gray-700 dark:text-gray-200">4.5</span>
 
-                <span class="text-gray-500">from 23 ratings</span>
+                <span class="text-gray-500 dark:text-gray-400">from 23 ratings</span>
             </div>
         </div>
     </div>
 
     <div class="mt-12">
-        <h3 class="text-2xl font-semibold text-gray-800">Related components</h3>
+        <h3 class="text-2xl font-semibold text-gray-800 dark:text-gray-200">Related components</h3>
 
         <div class="grid gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3">
             <div>
@@ -110,8 +106,8 @@
                         </a> 
                         
                         <div class="flex flex-col space-y-1">
-                            <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                            <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                            <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                            <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                         </div>
                     </div>
 
@@ -138,8 +134,8 @@
                         </a> 
                         
                         <div class="flex flex-col space-y-1">
-                            <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                            <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                            <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                            <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                         </div>
                     </div>
 
@@ -166,8 +162,8 @@
                         </a> 
                         
                         <div class="flex flex-col space-y-1">
-                            <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                            <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                            <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                            <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                         </div>
                     </div>
 
@@ -194,8 +190,8 @@
                         </a> 
                         
                         <div class="flex flex-col space-y-1">
-                            <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                            <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                            <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                            <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                         </div>
                     </div>
 
@@ -222,8 +218,8 @@
                         </a> 
                         
                         <div class="flex flex-col space-y-1">
-                            <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                            <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                            <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                            <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                         </div>
                     </div>
 
@@ -250,8 +246,8 @@
                         </a> 
                         
                         <div class="flex flex-col space-y-1">
-                            <a href="#" class="font-semibold text-gray-800 sm:text-lg hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
-                            <a href="#" class="text-sm text-gray-600 hover:underline">khatabwedaa</a>
+                            <a href="#" class="font-semibold text-gray-800 dark:text-gray-200 sm:text-lg dark:hover:text-primary hover:text-primary hover:underline">Responsive Mini + One Columns Sidebar</a> 
+                            <a href="#" class="text-sm text-gray-600 dark:text-gray-400 hover:underline">khatabwedaa</a>
                         </div>
                     </div>
 
@@ -265,13 +261,14 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="flex justify-center mt-10">
-            <a href="#" class="px-4 py-2 mt-2 text-gray-600 transition-colors duration-200 transform border rounded-lg hover:bg-gray-100 focus:outline-none">
-                See more components
-            </a>
         </div>
     </div>
+    
+    <div class="flex justify-center mt-10">
+        <a href="#" class="px-4 py-2 mt-2 text-gray-600 transition-colors duration-200 transform border rounded-lg dark:text-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
+            See more components
+        </a>
+    </div>
 </section>
+
 @endsection

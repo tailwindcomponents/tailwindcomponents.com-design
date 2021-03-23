@@ -3,3 +3,28 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+
+[v-cloak] {
+    display: none
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar {
+    height: 7px;
+}    
+
+::-webkit-scrollbar-track {
+    background: #EBF8FF;
+}    
+
+::-webkit-scrollbar-thumb {
+    background: #11d3cf;
+}    
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0ea09d;
+}  
